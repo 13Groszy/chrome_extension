@@ -1,0 +1,30 @@
+{
+    "name": "Move Reminder",
+    "description": "Office work can be bad for your muscles, give yourself a small break and move few times to sustain fit and healhy for more years!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["scripting","tabs","background","storage"],
+    "host_permissions":[
+      "<all_urls>"
+    ],
+    "options_page": "options.html",
+    "action": {
+        "default_title": "Move Reminder - Make your office job healthier!",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/logo_dark.png",
+            "32": "/images/logo_dark.png",
+            "48": "/images/logo_dark.png",
+            "128": "/images/logo_dark.png"
+          }
+      },
+      "icons": {
+        "16": "/images/logo_dark.png",
+        "32": "/images/logo_dark.png",
+        "48": "/images/logo_dark.png",
+        "128": "/images/logo_dark.png"
+      }
+  }
