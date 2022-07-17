@@ -20,7 +20,10 @@ startBtn.addEventListener('click', () =>{
     outer.style.display = "none";
     popup.style.display = 'block';
     let timer = passedVal/60000;
-    innerPopup.innerHTML = `Your reminder will pop up in ${timer} minutes!`
+    if(timer > 1)
+        {innerPopup.innerHTML = `Your reminder will pop up in ${timer} minutes!`}
+    else
+        {innerPopup.innerHTML = `Your reminder will pop up in 10 seconds!`}
 
 
 })

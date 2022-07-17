@@ -23,7 +23,7 @@ body{
     height: 2rem;
   }
   h2{
-    margin-top: 1rem;
+    margin-block: 1rem;
   }
 
   .timeCheck{
